@@ -1,0 +1,10 @@
+services:
+  frontend:
+    build: first-react-app
+    ports:
+      - "3000:3000"
+  backend:
+    build: flask-app
+    ports:
+    - "8000:8000"
+  
